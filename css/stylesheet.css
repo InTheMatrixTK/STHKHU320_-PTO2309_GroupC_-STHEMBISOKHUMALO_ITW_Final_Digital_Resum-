@@ -47,8 +47,9 @@ label {
 .linked {
 	width: 3%;
 	height: 3%;
+	margin-top: 10px;
 	margin-left: 1%;
-	margin-top: 5px;
+	margin-right: 10px;
 	filter: grayscale(0%);
 }
 .linked:hover {
@@ -56,11 +57,32 @@ label {
 	filter: hue-rotate(250deg);
 	transition: 0.4s;
 }
+.gmail {
+	width: 3%;
+	height: 3%;
+	margin-top: 1px;
+	margin-left: 1%;
+	margin-right: auto;
+	margin-top: 10px;
+	
+	filter: grayscale(0%);
+}
+.gmail:hover {
+	transform: rotate(360deg);
+	filter: hue-rotate(250deg);
+	transition: 0.4s;
+}
+
+
+
+
+
 .banner-container {
-	background-image: url("images/banner");
+	background-image: url("/images/banner.jpg"); 
 	background-size: cover;
 	padding: 100px;
 	margin-top: 0%;
+    background-color: blue;
 }
 img {
 	display: block;
