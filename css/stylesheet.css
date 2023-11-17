@@ -21,7 +21,7 @@ article {
 	padding: 1%;
 	margin: 1rem 10vw;
 	margin-top: 0%;
-	background-image: url("/images/Newyork.jpg");
+	background-image: url("/images/dark-black-background-design-with-stripes_1017-38064.webp");
 	background-size: cover;
 }
 footer {
@@ -142,21 +142,12 @@ h1 {
 	margin-top: 0px;
 	line-height: 75%;
 }
-ul {
-	color: white;
-}
-
-@media screen and (max-width: 900px) {
-	body {
-		background-color: rgb(0, 26, 255);
-	}
-}
 @media only screen and (max-width: 600px) {
 	h1 {
-		font-size: 3vw;
+		font-size: 4.5vw;
 	}
 	h2 {
-		font-size: 2.9vw;
+		font-size: 4vw;
 	}
 	h3 {
 		font-size: 2.2vw;
@@ -178,10 +169,10 @@ ul {
 		margin: 1rem 1vw;
 	}
 	ul {
-		font-size: 9.5px;
+		font-size: 1px;
 	}
 	footer {
-		font-size: 10px;
+		font-size: 4vw;
 		margin: 1rem 0vw;
 		padding: 7px;
 	}
@@ -190,10 +181,7 @@ ul {
 		margin: 1rem 0vw;
 		padding: 7px;
 	}
-	body {
-		background-color: red;
 	}
-}
 @media only screen and (max-width: 900px) {
 	#navbar {
 		font-size: 2vw;
@@ -204,7 +192,11 @@ ul {
 }
 .grid-item {
 	background-color: none;
-	padding: 8px;
+	padding: 4px;
 	font-weight: bolder;
 	font-size: 10px;
+}
+ul {
+	color: white;
+	font-size: 13px;
 }
