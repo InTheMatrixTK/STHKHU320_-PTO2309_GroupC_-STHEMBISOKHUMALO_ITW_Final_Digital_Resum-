@@ -9,11 +9,11 @@ title {
 	margin-right: auto;
 }
 body {
-	background-image: linear-gradient(to right, lightgrey , dark);
+	background-image: linear-gradient(to right, lightgrey, dark);
 	border-color: black;
 	border-style: double;
 	font-size: 10px;
-	color:white;
+	color: white;
 	margin: 0;
 }
 article {
@@ -21,7 +21,7 @@ article {
 	padding: 1%;
 	margin: 1rem 10vw;
 	margin-top: 0%;
-	background-image: url("/images/Newyork.jpg"); 
+	background-image: url("/images/Newyork.jpg");
 	background-size: cover;
 }
 footer {
@@ -29,7 +29,7 @@ footer {
 	padding: 10px;
 	margin-bottom: 10px;
 	background-color: rgb(34, 47, 73);
-	background-image: url("/images/Newyork.jpg"); 
+	background-image: url("/images/Newyork.jpg");
 	color: white;
 }
 label {
@@ -76,7 +76,7 @@ label {
 	transition: 0.4s;
 }
 .banner-container {
-	background-image: url("/images/Newyork.jpg"); 
+	background-image: url("/images/Newyork.jpg");
 	background-size: cover;
 	padding: 100px;
 	margin-top: 0%;
@@ -103,7 +103,7 @@ button:hover {
 	text-decoration: none;
 }
 #navbar {
-	background-color:black;
+	background-color: black;
 	color: white;
 	text-align: center;
 	font-size: 130%;
@@ -196,4 +196,10 @@ ul {
 	.banner-container {
 		padding: 15%;
 	}
+}
+.grid-item {
+	background-color: none;
+	padding: 10px;
+	font-weight: bolder;
+	font-size: 15px;
 }
