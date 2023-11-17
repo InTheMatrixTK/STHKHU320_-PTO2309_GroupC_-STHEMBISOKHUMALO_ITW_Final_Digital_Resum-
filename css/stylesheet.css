@@ -164,6 +164,9 @@ ul {
 	h4 {
 		font-size: 2vw;
 	}
+	.grid-item {
+		font-size: 1vw;
+	}
 	#navbar {
 		font-size: 2.2vw;
 	}
@@ -201,7 +204,7 @@ ul {
 }
 .grid-item {
 	background-color: none;
-	padding: 10px;
+	padding: 8px;
 	font-weight: bolder;
-	font-size: 15px;
+	font-size: 10px;
 }
