@@ -138,7 +138,7 @@ h4 {
 h1 {
 	color: white;
 	font-family: arial, helvetica, "sans serif";
-	font-size: 150%;
+	font-size: 20px;
 	margin-top: 0px;
 	line-height: 75%;
 }
@@ -165,7 +165,7 @@ h1 {
 		padding: 5%;
 	}
 	p {
-		font-size: 10px;
+		font-size: 14px;
 		margin: 1rem 1vw;
 	}
 	ul {
@@ -194,9 +194,13 @@ h1 {
 	background-color: none;
 	padding: 4px;
 	font-weight: bolder;
-	font-size: 10px;
+	font-size: 15px;
 }
 ul {
 	color: white;
-	font-size: 13px;
+	font-size: 15px;
+}
+ol {
+	color: white;
+	font-size: 15px;
 }
